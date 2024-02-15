@@ -1,0 +1,24 @@
+{
+  "name": "class6-express",
+  "version": "1.0.0",
+  "description": "Demo project for Web Design Class",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Carlos2902/express-js-webDesign-class.git"
+  },
+  "keywords": [
+    "Express.js",
+    "Node.js"
+  ],
+  "author": "Carlos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Carlos2902/express-js-webDesign-class/issues"
+  },
+  "homepage": "https://github.com/Carlos2902/express-js-webDesign-class#readme"
+}
