@@ -4,20 +4,24 @@ const app = express(); // Creates an express application
 const HTTP_PORT = process.env.PORT || 8080; // Port where the server is hosted
 
 
+// Serve static files from the 'public' directory
+app.use(express.static('public'));
+
 // Establish various routes
 app.get('/', (req,res)=>{
     res.sendFile(path.join(__dirname, "/views/home.html"))
 })
 app.get('/about', (req,res)=>{
-    res.send('This is the about page')
+    res.sendFile(path.join(__dirname, "/views/about.html"))
+
 })
-app.get('/settings', (req,res)=>{
-    res.send('This is the settings page')
-})
-app.get('/login', (req,res)=>{
-    res.send('This is the loging page')
+app.get('/CheckOut', (req,res)=>{
+    res.sendFile(path.join(__dirname, "/views/CheckOut.html"))
 })
 app.get('/signup', (req,res)=>{
+    res.sendFile(path.join(__dirname, "/views/signup.html"))
+})
+app.get('/login', (req,res)=>{
     res.send('This is the sign up page')
 })
 
