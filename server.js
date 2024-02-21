@@ -21,8 +21,9 @@ app.get('/CheckOut', (req,res)=>{
 app.get('/signup', (req,res)=>{
     res.sendFile(path.join(__dirname, "/views/signup.html"))
 })
+
 app.get('/login', (req,res)=>{
-    res.send('This is the sign up page')
+    res.sendFile(path.join(__dirname, "/views/login.html"))
 })
 
 // Starting the server
