@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
 
 4. **View the application:**
 
-    Open your web browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
+    Open your web browser and visit [http://localhost:3000](http://localhost:8080) to view the application.
 
 ## Project Structure
 
