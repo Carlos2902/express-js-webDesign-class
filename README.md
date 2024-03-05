@@ -1,6 +1,6 @@
-# Class6-Express
+# Node.js: From Basics to Debugging 
 
-This is a demo project created for the Web Design Class to demonstrate the usage of Express.js and Node.js.
+This is a demo project created for the Web Programming Class to demonstrate the usage of Express.js and Node.js.
 
 ## Getting Started
 
